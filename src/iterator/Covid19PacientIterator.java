@@ -8,7 +8,7 @@ import domain.Symptom;
 public class Covid19PacientIterator implements Iterator{
 	List<Symptom> symptoms;
 	int position=0;
-
+	
 	public Covid19PacientIterator(List<Symptom> s) {
 		this.symptoms = s;
 	}
